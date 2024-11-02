@@ -2,10 +2,8 @@
 
 This repository contains implementations of various sorting algorithms in Java, starting with the Bubble Sort algorithm. Each algorithm is implemented as a standalone Java class with explanations and sample usage.
 
-**Table of Contents
-About**
 
-**About**
+**What is sorting**
 
 Sorting algorithms are fundamental to computer science and are widely used for data organization, search optimization, and data analysis. This project demonstrates how to implement some popular sorting algorithms in Java with explanations for each algorithm's logic and complexity.
 
