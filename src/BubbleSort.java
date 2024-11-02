@@ -2,7 +2,7 @@
 import java.util.Arrays;public class BubbleSort{
 
 
-     static void bubbleSorting(int[] arr)
+    public  void bubbleSorting(int[] arr)
     {
         boolean swaping;
 
@@ -26,7 +26,8 @@ import java.util.Arrays;public class BubbleSort{
     }
     public static void main(String[] args){
         int[] arr={3,4,6,5,7,2,1};
-        bubbleSorting(arr);
+        BubbleSort bs =new BubbleSort();
+        bs.bubbleSorting(arr);
         System.out.println(Arrays.toString(arr));
     }
 }
