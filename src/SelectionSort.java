@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class SelectionSort {
 
     // Function to perform selection sort
@@ -21,23 +23,15 @@ public class SelectionSort {
         }
     }
 
-    // Function to print the array
-    public static void printArray(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
-    }
 
     public static void main(String[] args) {
         int[] arr = {64, 25, 12, 22, 11};
         System.out.println("Original array:");
-        printArray(arr);
+        System.out.print(Arrays.toString(arr));
 
         // Perform selection sort
         selectionSort(arr);
-
         System.out.println("Sorted array:");
-        printArray(arr);
+        System.out.print(Arrays.toString(arr));
     }
 }
