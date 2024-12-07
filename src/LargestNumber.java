@@ -36,7 +36,7 @@ public class LargestNumber {
 
     public static void main(String[] args) {
         // Test case 1: nums = [3, 30, 34, 5, 9]
-        int[] nums1 = {3, 30, 34, 5, 9};
+        int[] nums1 = {29, 30};
         System.out.println("Largest Number: " + largestNumber(nums1)); // Output: "9534330"
 
         // Test case 2: nums = [0, 0, 0]
