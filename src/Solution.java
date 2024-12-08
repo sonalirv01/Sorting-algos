@@ -28,7 +28,7 @@ import java.util.Arrays;public class Solution {
         }
 
         public static void main(String[] args) {
-            SolutionDV coinChange = new SolutionDV();
+            Solution coinChange = new Solution();
 
             int[] coins1 = {936,917,205,483,345,307,117,20,679,1};
             int sum1 = 662;
